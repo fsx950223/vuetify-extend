@@ -1,0 +1,51 @@
+{
+  "name": "vuetify-extend",
+  "version": "1.0.0",
+  "description": "the extend components for vuetify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsx950223/vuetify-extend.git"
+  },
+  "keywords": [
+    "vue",
+    "vuetify",
+    "material"
+  ],
+  "author": "https://github.com/fsx950223",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsx950223/vuetify-extend/issues"
+  },
+  "homepage": "https://github.com/fsx950223/vuetify-extend",
+  "peerDependencies": {
+    "vue": "^2.5.16",
+    "vuetify": "^1.0.17"
+  },
+  "devDependencies": {
+    "@commitlint/config-angular": "^6.1.3",
+    "commitlint": "^6.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "husky": "^0.14.3",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "vue-class-component": "^6.2.0",
+    "vue-loader": "^15.0.9",
+    "vue-property-decorator": "^6.0.0",
+    "vuepress": "^0.8.4",
+    "webpack": "^4.8.1"
+  }
+}
